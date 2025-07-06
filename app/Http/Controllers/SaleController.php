@@ -34,6 +34,7 @@ class SaleController extends Controller
 
     public function store(SaleRequest $request)
     {
+        
         try {
             $sale = $this->saleService->createSale(
                 saleData: $request->only(['user_id', 'sale_date']),

@@ -4,11 +4,6 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SaleController;
 use App\Http\Controllers\ProductController;
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-
 
 Route::resource('sales', SaleController::class);
 Route::get('trash/sales', [SaleController::class, 'trash'])->name('trash.sales');

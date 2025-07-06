@@ -2,13 +2,7 @@
 
 @section('content')
 <div class="container">
-<div class="d-flex justify-content-between align-items-center mb-3">
-    <h1 class="mb-0">Create New Sale</h1>
-    <a href="{{ route('sales.index') }}" class="btn btn-secondary">
-        <i class="fas fa-arrow-left"></i> Back
-    </a>
-</div>
-
+    <h1>Create New Sale</h1>
     
     <form id="saleForm">
         @csrf
