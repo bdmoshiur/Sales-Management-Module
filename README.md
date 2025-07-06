@@ -55,3 +55,7 @@ http://127.0.0.1:8000/sales
 
 This will take you to the **Sales Management Module** dashboard.
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2f9dd04d3ab227409d5c7e7ae740479909a44e2e
